@@ -98,6 +98,5 @@ else if(computerMove == 'papier' && playerMove == 'kamień'){
     printMessage('Przegrywasz!');
   }
   else printMessage('błąd'); */
-
   console.log('moves:', computerMove, playerMove);
   displayResult (computerMove,playerMove);
